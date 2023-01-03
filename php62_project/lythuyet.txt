@@ -1,0 +1,5 @@
+co 2 cach thuc hien truy van PD0
+cach 1: thuc hien full sqo
+$result =$conn->query(full sql)
+cach 2: th sql co truyen tham so -> tranh 1 so li bao mat
+$xonn->prepare("select * from tenbang where cot=:var_gt1 and coy2=:var_gt2")

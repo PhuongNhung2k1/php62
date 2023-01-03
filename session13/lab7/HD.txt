@@ -1,0 +1,41 @@
+
+
+% - cookie : la bien luu tru tren trinh duyet -> luu vao muc cookie ( moi trinh dute khi cai dat se tao ra 
+% mot muc luu tru cookie cya trinh dueyr do)
+%     - moi trinh duyet se co mot thu muc cookie
+%     - Tao bien cookie : 
+%         setcookie(tebbien);// tgian mac dinh cua server khoang 15p
+%         Thoi gian cookie ton tai se do webserver quy dinfa
+%         setcookie(tenbien,giatri) -> thoi gian cookie ton tai cung do server quy dinh 
+%          setcookie(tenbien,giatri, thoigiantontai)
+%             thoigiantontai = time() + sogiay;
+%                 sau sogiay thi cookier se bi trinh duyet xoa di
+%                 time() la ham cua php doi thoi gian hien tai ra mot so nguyen
+%     - truy xuất giá tri cookie : $_COOKIE["tenbiencookie"];
+%     - cookie la mot array, vi vay cos the xuat cau truc cua cookie thong qua ham : print_r($_COOKIE);
+%     - Xoa bien coookie : chi can thoi gian ton tai ve truoc thoi gian hien tai la bien cookie se tu dong bij xoa
+%      - bien coooke duoc ap dung o mot so tinh nag
+            save password khi login;
+            - khi quan tan mot san pham nao do , website se luu doan ma de the hien ban quan tam sen san pham do -> phuc vu
+            cho muc dich quang cao sp
+        - pham vi cua bien 
+            - bien cuc bo : ton tai tren 1 trang
+                - la bien ton tai ben ngoai ham hoac ben trong ham  
+                - neu ton tai ben ngoai ham thi khong dung duoc ow ben trong ham vaf nguoc lai
+            - bien toan cuc: ton tai tren mot trang
+                - la bien eton tai ben ngoai hoac ben trong ham
+                - co the dung duoc o ca trong va ngoai ham
+
+- session : ton tai tren nhieu trang thuoc cung 1 trinh duyet
+    - moi trinh duyet khi khoi dong se co 1 session id khac nhau bang ham session_id();
+    - muon su dung bien session thi phai khoi tao no bang ham session_start();
+    - chu y : neu khong co ham session_start() thi bien session khi 
+    khoi tai no chi tuong duong voi bien toan cuc, co nghia la chi ton tai tren 1 trang ma kh
+    ton tai  duow o trag khac
+    - khoi tai , truy xuast bien session : $_SESSION["tenbien"]
+    - huy bien session : unset($_SESSION["tenbien])
+    - pham vi ap dung  
+        dang nhap, dang xuast
+        - gio hang, quy trinh mua hang
+        - wishList( san pham yeu thich, quan tam)
+        ...

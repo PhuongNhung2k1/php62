@@ -1,0 +1,29 @@
+- Huong doi tuong
+    -  Lop (class) la g?
+    - doi tuong object la gi 
+- lop :
+ - no giong nhu ban thiet ke -> chua ra san pham cu he
+- doi tuong L tu ban thiet ke do xay dung ra san pham cu the. Moi san pham la moit doituong
+- Trong PHP
+    - Lop : dinh nghia bang tu khoa class
+        CU phap :   
+            class tenlop(){
+                public bientronglop;
+                public function hamtronglop();
+            }
+        bientronglop : la cac kieu bien da hocj
+        hamtronglop : la cac laoi ham da hocj
+    - doi truing : la 1 the hien cu the cua lop 
+        doitiong = new tenlop();
+- Quy tac dat ten bien
+    - quy tac pascal    
+        - tu dau tien cua chu viet hoa :
+            VD: HelloWorld,MyName
+        - Ap dung dat ten: ten class, ten file
+    - Quy tac camel
+        - Tu dau tien cua chu dau tien viet thuong, tu dau tien cua cac chu ke tiep viet hoa 
+            VD: ap dung dat ten : teb bien , ten ham
+    - Quy tac snack 
+        - cac chu viet thuong, cach nhau bang dau gaxch duoi
+            VD: hello_world, my_name;
+        - Ap dung dat ten ; ten bien, ten folder, ten file

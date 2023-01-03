@@ -1,0 +1,10 @@
+#ghi chu chu trong .htaccess: su dung ky hieu # o dau dong ghi chu
+#bat che do rewrite website
+RewriteEngine on
+
+#url: /rewrite/php62  -> lab1.php
+RewriteRule ^php62$  lab1.php
+#truyen bien len url : /rewrite/truyenbien/hello/2022
+RewriteRule ^truyenbien/(.*)/(.*)$  	lab2.php?bien1=$1&bien2=$2
+#url /rewrite/load anh/hello    ->lab3.php
+RewriteRule ^load-anh/hello$		lab3.php

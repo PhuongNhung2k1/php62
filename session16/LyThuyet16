@@ -1,0 +1,30 @@
+ 3 kieu ket noi PHP voi
+	 - su dung mysqli : chi kets noi dc voi csdl mysql
+	 - Su dung mysqk huong doi tuong: chi ket noi dc vois csdl mysql
+	 - su dung ket noi PD0: co the ket noi ddc voi nhieu csdl(15csdl)
+
+ - Duyet cac ban ghhi co mot so kieu duyet
+ 	- Duyet theo arrarr : a[["tencot"]];
+ 	- Duyet theo kieu object ->ten;
+ - Mo hinh MVC 
+ ((cau hỏi php : sesion,cookie luu tru o dau, csdl, ket noi csdl))
+ 	- Bao gom 3 thanh phan: 
+ 		- Model : la ohan gan nhat voi csdl , chua cac ham de thao tac voi csdl
+ 		- Controller : la phan dieu khien, co tac dong lay dl tu model truyen du lieu ra View
+ 		- View : la phan gan nhat voi ng dung, sud ung de hien thi dl cho ng dung thay
+ 		- Mô hinh MVC viet lan luot heo cac tang nhu sau : Model, Controller , View
+ 	- Chu y : ( goi ham len)
+ 	 - trong 1 trang web co nhieu MVC khac nhau : VD : MVC tin tuc, MVC san pham noi bat ..
+ 	 - de goi MVC thi chi can tao object cho class Controller
+- De load noi dung của 1 trang khac vaot rang hien tai
+	include 
+	include_once
+	require
+	require_once
+- Doc noi dung vao mot bien 
+	// noi dung an doc se nam trong tà sau 
+	ob_starrt();
+	html + code php can doc
+	$noi_dung = ob_get_contents();
+	// lam rong bo dem
+	ob_get_clean();
